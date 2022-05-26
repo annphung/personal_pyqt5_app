@@ -1,0 +1,78 @@
+/*
+COLOR SCHEME - based on background picture
+Thatch: #B89DA7
+Livid brown: #4D2D3A
+Kabul: #684B45
+Scarpa flow: #534D5E
+Bright pink: #F5E5E5
+*/
+
+/* Styling rules for list_widget_interface */
+QPushButton#clear_all_button{
+    text-align: right;
+    background: transparent;
+}
+
+QPushButton#clear_completed_button{
+    text-align: left;
+    background: transparent;
+}
+
+QPushButton#clear_completed_button, #clear_all_button{
+    font-size: 14px;
+}
+
+QLabel#nice_to_label, #should_do_label, #must_do_label{
+    min-height: 30px;
+    font-size: 20px;
+}
+
+QLineEdit#add_task_nice, #add_task_should, #add_task_must{
+    color: white;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+QFrame#outer_frame{
+    border-image: url("backgrounds/pink_japanese_background.jpg");
+}
+
+QFrame#inner_frame{
+    border-radius: 10px;
+    background-color: rgba(26, 26, 26, 0.8);
+}
+
+QListWidget{
+    padding: 5px;
+    background-color: rgba(26, 26, 26, 0.9);
+}
+
+QListWidget::item{
+    margin-bottom: 4px;
+}
+
+QPushButton#add_button_nice, #add_button_should, #add_button_must{
+    font-size: 32px;
+    min-width: 25px;
+    max-width: 25px;
+    min-height: 25px;
+    max-height: 25px;
+}
+
+/* Styling rules for custom_list_item*/
+QPushButton{
+    background: transparent;
+    border: none;
+}
+
+QLabel#task_field{
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+QFrame#custom_list_frame{
+    background-color: none;
+}
+
+

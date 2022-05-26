@@ -1,0 +1,60 @@
+QFrame{
+    background-color: rgb(9,5,13);
+    color: rgb(243, 236, 236)
+}
+
+QWidget{
+    background-color: rgb(9,5,13);
+}
+
+QLabel{
+    background-color: rgba(255, 255, 255,0);
+}
+
+QPushButton{
+    color: white
+}
+
+QToolBox{
+    background-color: rgba(24, 24 , 36 , 0.25);
+    text-align: left;
+    color: white
+}
+
+QToolBox::tab{
+    border-radius: 5px;
+    background-color: rgba(17,16,26,0.35);
+    text-align: left;
+    color: white
+}
+
+QLabel#coffee_logo{
+    border: 3px solid rgb(173, 4, 4);
+    border-radius: 25px;
+}
+
+QFrame#header{
+    background-color: rgb(9,5,13);
+}
+
+QFrame#main_body_2{
+    background-color: rgb(24,24,36);
+}
+
+QWidget#main_widget{
+    background-color: rgb(24,24,36);
+
+}
+
+QLineEdit#search_bar{
+    color:white;
+    border: 2px solid ;
+    border-color: black black rgb(173, 4, 4) black;
+}
+
+QLabel#timer_widget_bg{
+    background-color: aqua;
+}
+
+
+
